@@ -1,0 +1,8 @@
+uvicorn==0.23.2
+requests==2.31.0
+fastapi[all]==0.104.0
+SpeechRecognition==3.10.0
+pydub==0.25.1
+spacy==3.7.2
+pymongo==4.3.3
+gTTS==2.4.0
