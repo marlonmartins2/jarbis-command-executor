@@ -72,7 +72,7 @@ async def upload_audio(file: UploadFile):
                     detail="Could not receive location on audio"
                 )
 
-        elif "advice" in content:
+        elif "conselho" in content:
             command_payload["command"] = "advice"
             Commands.insert_command(command_payload)
 

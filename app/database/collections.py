@@ -8,3 +8,4 @@ class Collections(str, Enum):
         str (Enum): Enum for collections to be used in database
     """
     COMMANDS = "commands"
+    ADVICES = "advices"
